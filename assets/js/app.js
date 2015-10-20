@@ -6,6 +6,12 @@ for (var i = blendOptions.length - 1; i >= 0; i--) {
   blendOptions[i].addEventListener('click', applyBlendMode);
 }
 
+fontColor.addEventListener('keyup', function() {
+  for (var i = blendTexts.length - 1; i >= 0; i--) {
+    blendTexts[i].style.color = this.value;
+  }
+});
+
 applyBlendMode('difference');
 
 function applyBlendMode(mixBlendMode) {
@@ -17,9 +23,3 @@ function applyBlendMode(mixBlendMode) {
     blendTexts[i].style.mixBlendMode = mixBlendMode;
   }
 }
-
-fontColor.addEventListener('keyup', function() {
-  for (var i = blendTexts.length - 1; i >= 0; i--) {
-    blendTexts[i].style.color = this.value;
-  }
-});
