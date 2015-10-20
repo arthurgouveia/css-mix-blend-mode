@@ -18,15 +18,7 @@
   }
 }
 
-$color-palette: (
-  #F44336, #E91E63, #9C27B0,
-  #673AB7, #3F51B5, #2196F3,
-  #03A9F4, #00BCD4, #009688,
-  #4CAF50, #8BC34A, #CDDC39,
-  #FFEB3B, #FFC107, #FF9800,
-  #FF5722, #795548, #9E9E9E,
-  #607D8B
-);
+$color-palette: (#F44336, #E91E63, #9C27B0, #FFEB3B, #4CAF50);
 
 @for $i from 1 through length($color-palette) {
   .blend-text-#{$i} {
@@ -52,6 +44,21 @@ $color-palette: (
 
 .blend-text {
   padding: 10px;
+
+  span { color: #fff; }
+}
+
+.text-on-image {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  font-size: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: url('http://lorempixel.com/500/500');
+  background-size: cover;
+  padding-top: 200px;
+  margin-top: 20px;
 
   span { color: #fff; }
 }
