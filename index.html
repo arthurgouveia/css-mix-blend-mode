@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS mix-blend-mode property</title>
+
+  <meta name="description" content="Have a glance at how the mix-blend-mode CSS property works with this live demo." />
+  <meta name="keywords" content="css, mix-blend-mode, css mix-blend-mode, css property, css property mix-blend-mode" />
+  <meta property="og:title" content="CSS mix-blend-mode property"/>
+  <meta property="og:image" content="http://arthurgouveia.com/css-mix-blend-mode/assets/img/facebook.png"/>
+  <meta property="og:site_name" content="Arthur Gouveia"/>
+  <meta property="og:description" content="Have a glance at how the mix-blend-mode CSS property works with this live demo.">
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="http://arthurgouveia.com" />
+  <meta property="og:url" content="http://arthurgouveia.com/css-mix-blend-mode/"/>
+
+
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/foundation.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="row">
+    <div class="large-3 columns sidebar">
+      <h6>Values
+        <small><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode">[Source]</a></small>
+      </h6>
+
+      <ul id="blend-options" class="side-nav blend-options">
+        <li><a href="#color">color</a></li>
+        <li><a href="#color-burn">color-burn</a></li>
+        <li><a href="#color-dodge">color-dodge</a></li>
+        <li><a href="#darken">darken</a></li>
+        <li><a href="#difference">difference</a></li>
+        <li><a href="#exclusion">exclusion</a></li>
+        <li><a href="#hard-light">hard-light</a></li>
+        <li><a href="#hue">hue</a></li>
+        <li><a href="#inherit">inherit</a></li>
+        <li><a href="#initial">initial</a></li>
+        <li><a href="#lighten">lighten</a></li>
+        <li><a href="#luminosity">luminosity</a></li>
+        <li><a href="#multiply">multiply</a></li>
+        <li><a href="#normal">normal</a></li>
+        <li><a href="#overlay">overlay</a></li>
+        <li><a href="#saturation">saturation</a></li>
+        <li><a href="#screen">screen</a></li>
+        <li><a href="#soft-light">soft-light</a></li>
+        <li><a href="#unset">unset</a></li>
+      </ul>
+    </div>
+    <div class="large-9 columns">
+      <h1>Mix-Blend-Mode CSS property test</h1>
+
+      <p>This is a simple code and show test of how the CSS property <strong>mix-blend-mode</strong> works.
+        <br/> The idea is based of this <a href="https://css-tricks.com/reverse-text-color-mix-blend-mode/">article</a> by <a href="https://css-tricks.com/author/robinrendle/">Robin Rendle</a>.</p>
+
+      <label>
+        Font color
+        <input type="text" placeholder="#fff by default. Make sure you type in a valid color :B" id="font-color"/>
+      </label>
+
+      <div class="blend-text blend-text-1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-4"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-5"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-6"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-7"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-8"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-9"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-10"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-11"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-12"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-13"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-14"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-15"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-16"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-17"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-18"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+      <div class="blend-text blend-text-19"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, suscipit.</span></div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-69091439-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

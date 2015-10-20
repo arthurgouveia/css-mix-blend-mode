@@ -1,0 +1,98 @@
+.sidebar {
+  background: #ECEFF1;
+  padding: 0;
+}
+.sidebar h6 {
+  background: #607D8B;
+  color: #ECEFF1;
+  padding: 0.4375rem 0.875rem;
+}
+.sidebar h6 a {
+  color: #fff;
+  display: block;
+  float: right;
+  margin-top: 10px;
+}
+
+.blend-text-1 {
+  background: #F44336;
+}
+
+.blend-text-2 {
+  background: #E91E63;
+}
+
+.blend-text-3 {
+  background: #9C27B0;
+}
+
+.blend-text-4 {
+  background: #673AB7;
+}
+
+.blend-text-5 {
+  background: #3F51B5;
+}
+
+.blend-text-6 {
+  background: #2196F3;
+}
+
+.blend-text-7 {
+  background: #03A9F4;
+}
+
+.blend-text-8 {
+  background: #00BCD4;
+}
+
+.blend-text-9 {
+  background: #009688;
+}
+
+.blend-text-10 {
+  background: #4CAF50;
+}
+
+.blend-text-11 {
+  background: #8BC34A;
+}
+
+.blend-text-12 {
+  background: #CDDC39;
+}
+
+.blend-text-13 {
+  background: #FFEB3B;
+}
+
+.blend-text-14 {
+  background: #FFC107;
+}
+
+.blend-text-15 {
+  background: #FF9800;
+}
+
+.blend-text-16 {
+  background: #FF5722;
+}
+
+.blend-text-17 {
+  background: #795548;
+}
+
+.blend-text-18 {
+  background: #9E9E9E;
+}
+
+.blend-text-19 {
+  background: #607D8B;
+}
+
+.blend-text {
+  padding: 10px;
+}
+.blend-text span {
+  color: #fff;
+}
