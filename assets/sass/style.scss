@@ -18,7 +18,7 @@
   }
 }
 
-$color-palette: (#F44336, #E91E63, #9C27B0, #FFEB3B, #4CAF50);
+$color-palette: (#F44336, #E91E63, #9C27B0);
 
 @for $i from 1 through length($color-palette) {
   .blend-text-#{$i} {
@@ -42,23 +42,35 @@ $color-palette: (#F44336, #E91E63, #9C27B0, #FFEB3B, #4CAF50);
   }
 }
 
+.font-color-sample {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+}
+
 .blend-text {
   padding: 10px;
 
-  span { color: #fff; }
+  span {
+    color: #fff;
+    font-weight: bold;
+  }
 }
 
-.text-on-image {
+.image-container {
   width: 100%;
-  height: 500px;
+  height: 100px;
   text-align: center;
-  font-size: 150px;
+  font-size: 70px;
   font-weight: bold;
   text-transform: uppercase;
-  background: url('http://lorempixel.com/500/500');
+  background: url('http://lorempixel.com/500/250');
   background-size: cover;
-  padding-top: 200px;
-  margin-top: 20px;
 
-  span { color: #fff; }
+  @media screen and (min-width: 768px) {
+    font-size: 150px;
+    height: 220px;
+  }
 }
+
+.image-text { color: #fff; }

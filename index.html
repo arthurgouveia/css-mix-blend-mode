@@ -23,7 +23,7 @@
 
   <div class="row">
     <div class="large-3 columns sidebar">
-      <h6>Values
+      <h6>Choose a value
         <small><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode">[Source]</a></small>
       </h6>
 
@@ -52,23 +52,53 @@
     <div class="large-9 columns">
       <h1>Mix-Blend-Mode CSS property test</h1>
 
-      <p>This is a simple code and show test of how the CSS property <strong>mix-blend-mode</strong> works.
-        <br/> The idea is based of this <a href="https://css-tricks.com/reverse-text-color-mix-blend-mode/">article</a> by <a href="https://css-tricks.com/author/robinrendle/">Robin Rendle</a>.</p>
+      <p>
+        This is a simple code and show test of how the CSS property <strong>mix-blend-mode</strong> works.
+      </p>
 
-      <label>
-        Font color
-        <input type="text" placeholder="#fff by default. Make sure you type in a valid color :B" id="font-color"/>
-      </label>
+      <p>
+        Pick a value on the <strong>sidebar</strong> and select the <strong>font color</strong> you want:
+      </p>
+
+      <div class="row">
+        <div class="large-3 columns">
+          <label>Color Sample</label>
+          <div class="font-color-sample th" id="font-color-sample"></div>
+        </div>
+
+        <div class="large-9 columns">
+          <label for="font-color-level-red">
+            Red Level<br/>
+            <input type="range" min="0" max="255" value="255" class="font-color-levels" id="font-color-level-red"/>
+          </label>
+
+          <label for="font-color-level-green">
+            Green Level<br/>
+            <input type="range" min="0" max="255" value="255" class="font-color-levels" id="font-color-level-green"/>
+          </label>
+
+          <label for="font-color-level-blue">
+            Blue Level<br/>
+            <input type="range" min="0" max="255" value="255" class="font-color-levels" id="font-color-level-blue"/>
+          </label>
+        </div>
+      </div>
+
+      <h2>Text on image</h2>
+
+      <button id="image-change-button">Change image</button>
+
+      <div id="image-container" class="image-container">
+        <span id="image-text" class="image-text">Big text</span>
+      </div>
+
+      <hr/>
+
+      <h2>Text on background colors</h2>
 
       <div class="blend-text blend-text-1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quae voluptates, quas!</span></div>
       <div class="blend-text blend-text-2"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorem ea quia.</span></div>
       <div class="blend-text blend-text-3"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti autem obcaecati laboriosam!</span></div>
-      <div class="blend-text blend-text-4"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo eos dolor dolorem.</span></div>
-      <div class="blend-text blend-text-5"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium molestiae, totam inventore.</span></div>
-
-      <div id="text-on-image" class="text-on-image">
-        <span>Big text</span>
-      </div>
 
     </div>
   </div>
