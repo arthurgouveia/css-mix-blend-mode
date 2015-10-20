@@ -32,7 +32,21 @@ $color-palette: (
   .blend-text-#{$i} {
     $color: nth($color-palette, $i);
     background-color: $color;
-    @include background-image(linear-gradient(to right, lighten($color, 30%), $color, darken($color, 30%)));
+    @include background-image(linear-gradient(to right,
+      $color,
+      adjust-hue($color, 15deg),
+      adjust-hue($color, 30deg),
+      adjust-hue($color, 45deg),
+      adjust-hue($color, 60deg),
+      adjust-hue($color, 75deg),
+      adjust-hue($color, 90deg),
+      adjust-hue($color, 105deg),
+      adjust-hue($color, 120deg),
+      adjust-hue($color, 135deg),
+      adjust-hue($color, 150deg),
+      adjust-hue($color, 165deg),
+      adjust-hue($color, 180deg)
+    ));
   }
 }
 
