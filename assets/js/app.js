@@ -21,7 +21,7 @@
   }
 
   imageChangeButton.addEventListener('click', function() {
-    imageContainer.style.background = "url('http://lorempixel.com/500/500?v=" + Date.now() + "')";
+    imageContainer.style.background = "url('https://placeimg.com/500/500/any?v=" + Date.now() + "')";
     imageContainer.style.backgroundSize = 'cover';
   });
 
