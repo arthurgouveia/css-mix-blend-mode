@@ -21,7 +21,7 @@
   }
 
   imageChangeButton.addEventListener('click', function() {
-    imageContainer.style.background = "url('https://placeimg.com/500/500/any?v=" + Date.now() + "')";
+    imageContainer.style.background = "url('https://placeimg.com/500/250/any?v=" + Date.now() + "')";
     imageContainer.style.backgroundSize = 'cover';
   });
 

@@ -65,7 +65,7 @@
   font-size: 70px;
   font-weight: bold;
   text-transform: uppercase;
-  background: url("http://lorempixel.com/500/250");
+  background: url("https://placeimg.com/500/250/any?v=");
   background-size: cover;
 }
 @media screen and (min-width: 768px) {
